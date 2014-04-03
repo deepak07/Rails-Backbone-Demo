@@ -1,0 +1,41 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#task_list {
+  margin: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
+  border: 1px solid #ccc;
+}
+
+#task_completed {
+  padding: 15px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
+  border: 1px solid #ccc;
+}
+
+#task_form_container {
+  padding: 15px 15px 15px 15px;
+  margin: 15px 15px 15px 15px;
+  border: 1px solid #ccc;
+  background-color: mintcream;
+}
+
+.task-completed-box {
+  margin-left: 0px !important;
+}
+
+body {
+  background-color: lavender;
+  font-size: 12px
+}
+
+.task-widgets {
+  background-color: lightblue;
+}
+
+.delete_task_link, .incomplete_task_link {
+  color: navy;
+  cursor: pointer;
+  font-weight: 600;
+}

@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="task-details col-md-7">
+    <b><%= @task.get('title') %></b>
+    <p><%= @task.get('description') %></p>
+  </div>
+  <div class="due-date-display col-md-2">
+    <%= @task.get('due_date') %>
+  </div>
+  <div class="checkbox col-md-2">
+    <a class="delete_task_link">
+      Delete
+    </a>
+    <a class="incomplete_task_link">
+      Incomplete
+    </a>
+  </div>
+</div>
+<hr/>
